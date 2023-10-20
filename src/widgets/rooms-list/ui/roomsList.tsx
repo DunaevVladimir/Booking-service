@@ -1,7 +1,9 @@
+import './roomList.scss';
+
 export const RoomsList = () => {
   return (
     <>
-      RoomsList
+      RoomList
     </>
   )
 }

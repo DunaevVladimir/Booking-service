@@ -1,0 +1,11 @@
+.pageLayout {
+  max-width: 1024px;
+  margin: 0 auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+  align-self: center;
+
+  &-main {
+    flex-grow: 1;
+  }
+}
