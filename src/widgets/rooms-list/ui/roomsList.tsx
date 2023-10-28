@@ -3,7 +3,7 @@ import './roomList.scss';
 export const RoomsList = () => {
   return (
     <>
-      RoomList
+      <div className='RoomList'>RoomList</div>
     </>
   )
 }

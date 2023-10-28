@@ -1,11 +1,12 @@
-.pageLayout {
-  max-width: 1024px;
+.body {
+  max-width: 1660px;
   margin: 0 auto;
   min-height: 100vh;
   box-sizing: border-box;
   align-self: center;
+}
 
-  &-main {
-    flex-grow: 1;
-  }
+.main {
+  flex-grow: 1;
+  display: flex;
 }

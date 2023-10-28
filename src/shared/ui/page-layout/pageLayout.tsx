@@ -1,5 +1,5 @@
 import { memo, type ReactNode } from "react";
-import './pageLayout.scss';
+import styles from './pageLayout.module.scss';
 
 type Props = {
   head?: ReactNode
@@ -10,14 +10,14 @@ type Props = {
 function PageLayout({head, footer, children}: Props) {
 
   return (
-    <div className='pageLayout'>
-      <header className='pageLayout-head'>
+    <div className={styles.body}>
+      <header className={styles.head}>
         {head}
       </header>
-      <main className='pageLayout-main'>
+      <main className={styles.main}>
         {children}
       </main>
-      <footer className='pageLayout-footer'>
+      <footer className={styles.footer}>
         {footer}
       </footer>
     </div>
